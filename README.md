@@ -12,14 +12,14 @@ To reproduce this error, you need to:
 
 You will see an error like this in lldb:
 
-[IMAGE 1]
+![image](https://github.com/AndreasLS/struct-ib-ios12-bug/raw/main/error.png)
 
 If you try to get the class using objc runtime, the both scenarios may happen:
 
 ⛈ iOS 12:
 
-[IMAGE 2]
+![image](https://github.com/AndreasLS/struct-ib-ios12-bug/raw/main/ios12.png)
 
 🌞 iOS 13:
 
-[IMAGE 3]
+![image](https://github.com/AndreasLS/struct-ib-ios12-bug/raw/main/ios13.png)
